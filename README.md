@@ -1,42 +1,41 @@
-# 🍽️ Stilvoll - Sistema de Gestão de Restaurante
+# 🍽️ Stilvoll - Restaurant Management System
 
-![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
-![Tech](https://img.shields.io/badge/Tech-HTML%2FCSS%2FJS-orange)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![Status](https://img.shields.io/badge/Status-Academic%20Project-brightgreen?style=for-the-badge)
 
-O **Stilvoll** é uma plataforma focada na modernização da experiência em restaurantes, unindo um design elegante à funcionalidade prática. Este projeto foi desenvolvido como parte de um trabalho acadêmico voltado para **Análise de Sistemas e UX/UI**.
+O **Stilvoll** é um ecossistema de gestão para restaurantes que prioriza a elegância (daí o nome *Stilvoll*) e a segurança. Desenvolvido para fins acadêmicos, o sistema foca em uma arquitetura sólida e uma experiência de usuário (UX) fluida.
 
 ---
 
-## 🚀 Funcionalidades principais
+## 🛠️ Tecnologias e Ferramentas
 
-* **Jornada do Usuário:** Interface intuitiva focada na facilidade de navegação.
-* **Gestão de Pedidos:** Fluxo lógico para seleção e acompanhamento.
-* **Segurança:** Demonstração de fluxo de login seguro via **Email OTP** (One-Time Password).
-* **Identidade Visual:** Design responsivo e sofisticado (Stilvoll).
+* **Linguagem:** TypeScript (Tipagem estática para maior segurança e escalabilidade).
+* **Frontend:** HTML5, CSS3/SASS e JS Assíncrono.
+* **Segurança:** Sistema de autenticação via **Email OTP** (One-Time Password).
+* **UI/UX:** Design focado em Personas e Jornada do Usuário.
+* **Infra:** Git, GitHub e Deploy contínuo via Netlify.
 
-## 🛠️ Tecnologias Utilizadas
+## 📐 Escopo Acadêmico
 
-As seguintes ferramentas foram utilizadas na construção do projeto:
+O projeto foi estruturado seguindo as melhores práticas de Engenharia de Software:
+- **UML:** Diagramas de Caso de Uso (Relações de `include` e `extend`).
+- **Arquitetura:** Lógica de componentes e separação de interesses.
+- **Prototipagem:** Foco total em usabilidade e interface responsiva.
 
-* [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML) - Estrutura.
-* [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Estilização e Layout.
-* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - Lógica de interação e login.
-* [Netlify](https://www.netlify.com/) - Hospedagem e Deploy.
+## 🚀 Como Executar
 
-## 📐 Estrutura do Projeto (Acadêmico)
-
-O projeto contempla os seguintes artefatos de engenharia de software:
-* **Diagramas de Caso de Uso:** Representando as interações dos atores com o sistema.
-* **Personas:** Definição clara do público-alvo para melhorias de UX.
-* **Protótipo de UI:** Foco em usabilidade e estética.
-
-## 📦 Como rodar o projeto localmente
+Para rodar este projeto localmente e ver a mágica do TypeScript:
 
 ```bash
 # 1. Clone o repositório
 git clone [https://github.com/pezedev/stilvoll.git](https://github.com/pezedev/stilvoll.git)
 
-# 2. Entre na pasta
-cd stilvoll
+# 2. Instale as dependências
+npm install
 
-# 3. Abra o arquivo index.html no seu navegador
+# 3. Compile e rode em modo de desenvolvimento
+npm run dev
+
+# 4. Para build de produção
+npm run build
