@@ -22,7 +22,7 @@ const App = () => (
           <Toaster />
           <Sonner />
           <AccessibilityMenu />
-          <BrowserRouter>
+          <BrowserRouter basename="/stilvolll">
             <Routes>
               <Route path="/" element={<Index />} />
               <Route 
